@@ -21,7 +21,7 @@ class MySplashScreen extends StatelessWidget {
               image : DecorationImage(
                 image:  
                 AssetImage(
-                  ""
+                  "assets/images/Lay's_logo_2019.svg.png"
                   ),
               fit : BoxFit.cover
                   ),
@@ -36,7 +36,7 @@ class MySplashScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                  Text('Aplikasi ini untuk anda menemukan update tentang kami',
+                  Text('Aplikasi ini untuk anda menemukan update \ntentang kami',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
