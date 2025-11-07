@@ -36,7 +36,7 @@ class MySplashScreen extends StatelessWidget {
             SizedBox(height: 20,),
             Text('Selamat Datang di Lays',
                   style: TextStyle(
-                      fontSize: 35,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold,
                       color: Colors.amber
                     ),

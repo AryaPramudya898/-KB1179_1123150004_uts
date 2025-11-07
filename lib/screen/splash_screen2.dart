@@ -37,7 +37,7 @@ class MySplashScreen2 extends StatelessWidget {
             Text('Dapatkan Promonya!',
             textAlign: TextAlign.center,
                   style: TextStyle(
-                      fontSize: 35,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold,
                       color: Colors.amber
                     ),
