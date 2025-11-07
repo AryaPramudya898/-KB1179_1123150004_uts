@@ -7,6 +7,9 @@ class MySplashScreen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [],
+      ),
       body:Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -28,7 +31,7 @@ class MySplashScreen2 extends StatelessWidget {
             ),
            ),
             SizedBox(height: 20,),
-            Text('Dapatkan Promonya',
+            Text('Dapatkan Promonya !!!',
                   style: TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.bold,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150004_uts/screen/splash_screen2.dart';
 
 
 class MySplashScreen extends StatelessWidget {
@@ -7,6 +8,9 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        actions: [],
+      ),
       body:Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -83,7 +87,10 @@ class MySplashScreen extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                            
+                            Navigator.push(
+                              context, 
+                              MaterialPageRoute(builder: (context) => const MySplashScreen2()),
+                            );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.amber,
