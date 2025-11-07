@@ -14,7 +14,15 @@ class Login extends StatelessWidget {
                   Icon(Icons.person_pin,
                     size: 100,
                     color: Colors.amber,
-                  )
+                  ),
+                  SizedBox(height: 20,),
+                  Text("Selamat Datang", 
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.amber
+                    ),
+                  ),
                 ],
               ),
             ),
