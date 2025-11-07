@@ -7,7 +7,9 @@ class MySplashScreen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amber.shade100,
       appBar: AppBar(
+      backgroundColor: Colors.amber.shade100,
         actions: [],
       ),
       body:Center(
