@@ -64,7 +64,7 @@ class Login extends StatelessWidget {
                     obscureText: true,
                     decoration: InputDecoration(
                       labelText: 'Password',
-                      hintText: 'Masukan Password Anda',
+                      hintText: '**********',
                       prefixIcon: 
                       const Icon(
                         Icons.lock_outline,
@@ -89,6 +89,18 @@ class Login extends StatelessWidget {
                         borderSide: BorderSide(
                           color: Colors.amber,
                           width: 2
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 10,),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                        onPressed: () {}, 
+                        child: Text('Lupa Password ?', 
+                        style: TextStyle(
+                          color: Colors.amber
                         ),
                       ),
                     ),
