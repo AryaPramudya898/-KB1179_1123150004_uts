@@ -31,5 +31,10 @@ flutter pub get
 flutter run
 ```
 
+## Catatan Kendala
+```bash
+tidak ada kendala
+```
+
 
 
