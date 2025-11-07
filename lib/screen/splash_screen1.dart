@@ -9,7 +9,6 @@ class MySplashScreen extends StatelessWidget {
     return Scaffold(
       body:Center(
         child: Column(
-          //1. buat image dalam container
           mainAxisAlignment: MainAxisAlignment.center,
           children:[
             SizedBox(height:100),
@@ -28,8 +27,8 @@ class MySplashScreen extends StatelessWidget {
                   ),
             ),
            ),
-           SizedBox(height: 20,),
-           Text('Selamat Datang di Lays',
+            SizedBox(height: 20,),
+            Text('Selamat Datang di Lays',
                   style: TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.bold,
