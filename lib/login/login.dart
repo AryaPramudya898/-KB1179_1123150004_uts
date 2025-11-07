@@ -23,6 +23,12 @@ class Login extends StatelessWidget {
                     color: Colors.amber
                     ),
                   ),
+                  SizedBox(height: 5,),
+                  Text("Silahkan Login", 
+                  style: TextStyle(
+                    fontSize: 15,
+                    ),
+                  ),
                 ],
               ),
             ),
