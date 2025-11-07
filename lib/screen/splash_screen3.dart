@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150004_uts/screen/splash_screen3.dart';
 
 
-class MySplashScreen2 extends StatelessWidget {
-  const MySplashScreen2({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,15 +26,15 @@ class MySplashScreen2 extends StatelessWidget {
               image : DecorationImage(
                 image:  
                 AssetImage(
-                  "assets/images/images_(4).jpeg"
+                  "assets/images/Sr_Lopez_Lays_01.jpg"
                   ),
               fit : BoxFit.cover
                   ),
             ),
            ),
             SizedBox(height: 20,),
-            Text('Dapatkan Promonya!',
-            textAlign: TextAlign.center,
+            Text('Semoga Harimu \nMenyenangkan',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.bold,
@@ -43,7 +42,7 @@ class MySplashScreen2 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                  Text('Di Aplikasi ini Anda bisa menemukan \nRatusan Voucher Promo',
+                  Text('Yuk Login Ke Aplikasi',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
@@ -64,20 +63,20 @@ class MySplashScreen2 extends StatelessWidget {
                       ),
                       SizedBox(width: 10,),
                       Container(
-                        width: 15,
-                        height: 15,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.amber
-                        ),
-                      ),
-                      SizedBox(width: 10,),
-                      Container(
                         width: 10,
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.grey
+                        ),
+                      ),
+                      SizedBox(width: 10,),
+                      Container(
+                        width: 15,
+                        height: 15,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.amber
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -90,15 +89,12 @@ class MySplashScreen2 extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                            Navigator.push(
-                              context, 
-                              MaterialPageRoute(builder: (context) => const MySplashScreen3()),
-                            );
+                            
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.amber,
                         ),
-                        child: Text('Lanjut',
+                        child: Text('Yuk!',
                         style: TextStyle(
                           color: Colors.white
                         ),),
