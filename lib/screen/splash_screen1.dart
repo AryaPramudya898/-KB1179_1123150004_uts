@@ -22,25 +22,26 @@ class MySplashScreen extends StatelessWidget {
               image : DecorationImage(
                 image:  
                 AssetImage(
-                  "../assets/image/sapi.jpg"
+                  ""
                   ),
               fit : BoxFit.cover
                   ),
             ),
            ),
-           Text('Selamat Datang',
+           SizedBox(height: 20,),
+           Text('Selamat Datang di Lays',
                   style: TextStyle(
                       fontSize: 35,
-                      fontWeight: FontWeight.bold
+                      fontWeight: FontWeight.bold,
+                      color: Colors.amber
                     ),
                   ),
                   SizedBox(height: 10,),
-                  Text('ingin punya hewan peliharaan dirumah?\n beli di VANSPET aja!',
+                  Text('Aplikasi ini untuk anda menemukan update tentang kami',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.normal,
-                      color: Colors.black
                     ),
                   ),
                   SizedBox(height: 30,),
@@ -48,11 +49,11 @@ class MySplashScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        width: 10,
-                        height: 10,
+                        width: 15,
+                        height: 15,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.amber
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -76,23 +77,19 @@ class MySplashScreen extends StatelessWidget {
                       SizedBox(width: 10,),
                     ],
                   ),
-                  SizedBox(height: 70,),
+                  SizedBox(height: 20,),
                   Container(
                     child: SizedBox(
-                      height: 30,
+                      height: 40,
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                            // arahin ke next page
-                          // Navigator.push(
-                          //     context, 
-                          //     MaterialPageRoute(builder: (context) => MySplashScreen2()),
-                          //   );
+                            
                         }, 
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(255, 66, 13, 9),
+                          backgroundColor: Colors.amber,
                         ),
-                        child: Text('Gasken Continue',
+                        child: Text('Lanjut',
                         style: TextStyle(
                           color: Colors.white
                         ),),
@@ -101,13 +98,7 @@ class MySplashScreen extends StatelessWidget {
                     ),
                   ),
                   Spacer(),
-
           ],
-          //2. buat title welcome
-          //3 buat subtitle
-          //4. buat buletan kecil ada 3 melebar
-          //5. buat button "continue dengan warna putih"
-
         ),
       )
       
